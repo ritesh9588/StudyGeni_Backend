@@ -1,0 +1,31 @@
+{
+  "name": "studygini-backend",
+  "version": "1.0.0",
+  "description": "Backend for StudyGeni: AI-Enabled E-Learning",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "keywords": [
+    "mern",
+    "nodejs",
+    "express",
+    "ai",
+    "gemini"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.8.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  }
+}
